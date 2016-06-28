@@ -13,7 +13,9 @@ and open the template in the editor.
         <?php
         class Cat
         {
-             
+            public $name;
+            protected $position;
+            
         }
         
         $pet = new Cat("Kitty");
